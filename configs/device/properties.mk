@@ -9,6 +9,9 @@ PRODUCT_SYSTEM_PROPERTIES += \
     ro.config.vc_call_vol_default=5 \
     ro.config.vc_call_vol_steps=10
 
+PRODUCT_PRODUCT_PROPERTIES += \
+    vendor.audio.feature.kpi_optimize.enable=false
+
 # Bluetooth
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.bluetooth.modem_nv_support=true \
