@@ -32,6 +32,7 @@ PRODUCT_SYSTEM_PROPERTIES += \
 # Camera
 PRODUCT_PROPERTY_OVERRIDES += \
     camera.disable_zsl_mode=1 \
+    persist.vendor.camera.perflock.enable=0 \
     persist.vendor.camera.privapp.list=org.codeaurora.snapcam,com.android.camera
 
 PRODUCT_SYSTEM_PROPERTIES += \
