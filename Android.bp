@@ -1,4 +1,9 @@
 soong_namespace {
+    imports: [
+        "hardware/google/interfaces",
+        "hardware/google/pixel",
+        "hardware/xiaomi",
+    ],
 }
 
 prebuilt_hidl_interfaces {

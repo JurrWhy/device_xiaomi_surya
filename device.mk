@@ -153,6 +153,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     vendor/xiaomi-firmware \
+    hardware/google/interfaces \
+    hardware/google/pixel \
     hardware/xiaomi
 
 # NFC
@@ -199,6 +201,12 @@ PRODUCT_COPY_FILES += \
 # Platform
 MSMSTEPPE := sm6150
 TARGET_BOARD_PLATFORM := $(MSMSTEPPE)
+
+# Power
+TARGET_PROVIDES_POWERHAL := true
+
+PRODUCT_PACKAGES += \
+    android.hardware.power-service.xiaomi-libperfmgr
 
 # QC common
 TARGET_COMMON_QTI_COMPONENTS := \
