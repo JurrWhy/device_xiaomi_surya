@@ -132,9 +132,6 @@ TARGET_COPY_OUT_PRODUCT := product
 TARGET_COPY_OUT_SYSTEM_EXT := system_ext
 TARGET_COPY_OUT_VENDOR := vendor
 
-# Power
-TARGET_POWERHAL_MODE_EXT := $(DEVICE_PATH)/power/power-mode.cpp
-
 # QC common
 OVERRIDE_QCOM_HARDWARE_VARIANT := sm8150-common
 TARGET_SEPOLICY_DIR := msmsteppe
