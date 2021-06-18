@@ -208,6 +208,9 @@ TARGET_PROVIDES_POWERHAL := true
 PRODUCT_PACKAGES += \
     android.hardware.power-service.xiaomi-libperfmgr
 
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/power/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
+
 # QC common
 TARGET_COMMON_QTI_COMPONENTS := \
     adreno \
