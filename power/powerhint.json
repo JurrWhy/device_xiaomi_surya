@@ -189,6 +189,15 @@
       "ResetOnInit": true
     },
     {
+      "Name": "KernelBatterySaver",
+      "Path": "/sys/module/battery_saver/parameters/enabled",
+      "Values": [
+        "Y",
+        "N"
+      ],
+      "ResetOnInit": true
+    },
+    {
       "Name": "PowerHALMainState",
       "Path": "vendor.powerhal.state",
       "Values": [
@@ -387,6 +396,12 @@
       "Node": "TASchedtunePreferIdle",
       "Duration": 0,
       "Value": "0"
+    },
+    {
+      "PowerHint": "LOW_POWER",
+      "Node": "KernelBatterySaver",
+      "Duration": 0,
+      "Value": "Y"
     }
   ]
 }
