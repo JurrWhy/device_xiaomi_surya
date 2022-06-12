@@ -180,7 +180,6 @@ PRODUCT_COPY_FILES += \
 # Overlays
 PRODUCT_PACKAGES += \
     J20CFrameworks \
-    J20CNoCutoutOverlay \
     J20CSettings \
     J20CSystemUI \
     KarnaFrameworks \
