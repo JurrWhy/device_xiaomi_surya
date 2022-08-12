@@ -1,25 +1,25 @@
 [
    {
-       "remote"      : "pixel-devices",
-       "repository"  : "device_xiaomi_J20C-sepolicy",
+       "remote"      : "github",
+       "repository"  : "JurrWhy/device_xiaomi_J20C-sepolicy",
        "target_path" : "device/xiaomi/J20C-sepolicy",
        "branch"      : "twelve"
    },
    {
-       "remote"      : "pixel-devices",
-       "repository"  : "device_qcom_common",
+       "remote"      : "github",
+       "repository"  : "JurrWhy/device_qcom_common",
        "target_path" : "device/qcom/common",
        "branch"      : "twelve"
    },
    {
-       "remote"      : "pixel-devices",
-       "repository"  : "kernel_xiaomi_surya",
+       "remote"      : "github",
+       "repository"  : "JurrWhy/kernel_xiaomi_surya",
        "target_path" : "kernel/xiaomi/surya",
        "branch"      : "twelve"
    },
    {
-       "remote"      : "pixel-devices-blobs",
-       "repository"  : "vendor_xiaomi_surya",
+       "remote"      : "github",
+       "repository"  : "JurrWhy/vendor_xiaomi_surya",
        "target_path" : "vendor/xiaomi/surya",
        "branch"      : "twelve"
    },
