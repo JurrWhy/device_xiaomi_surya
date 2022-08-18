@@ -22,6 +22,16 @@
     <dimen name="status_bar_padding_end">4dp</dimen>
     <dimen name="rounded_corner_content_padding">16dp</dimen>
 
+    <!-- dimensions for the navigation bar handle -->
+    <dimen name="navigation_handle_radius">2dp</dimen>
+    <dimen name="navigation_handle_bottom">8dp</dimen>
+    <dimen name="navigation_home_handle_width">108dp</dimen>
+
+    <!-- Size of the nav bar edge panels, should be greater to the
+         edge sensitivity + the drag threshold -->
+    <dimen name="navigation_edge_panel_width">105dp</dimen>
+    <dimen name="navigation_edge_panel_height">268dp</dimen>
+
     <!-- Location on the screen of the center of the physical power button. -->
     <dimen name="physical_power_button_center_screen_location_y">1030px</dimen>
 
