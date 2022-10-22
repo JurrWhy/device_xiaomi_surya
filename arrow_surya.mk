@@ -21,14 +21,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 # Inherit from surya device
 $(call inherit-product, device/xiaomi/surya/device.mk)
 
-# Inherit some common PixelOS stuff
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
-TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_SUPPORTS_QUICK_TAP := true
+# Inherit common ArrowOS configurations
+$(call inherit-product, vendor/arrow/config/common.mk)
 
+# ArrowOS additions
+DEVICE_MAINTAINER := Jurrwhy
 
 # Device identifier
-PRODUCT_NAME := aosp_surya
+PRODUCT_NAME := arrow_surya
 PRODUCT_DEVICE := surya
 PRODUCT_BRAND := POCO
 PRODUCT_MODEL := POCO X3
